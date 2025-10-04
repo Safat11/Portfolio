@@ -10,6 +10,8 @@ import tailwind from '../../../assets/skills/download (8).png'
 import json from '../../../assets/skills/download (10).png'
 import jwt from '../../../assets/skills/download (9).png'
 import firebase from '../../../assets/skills/download (11).png'
+import flutter from '../../../assets/skills/download (12).png'
+import python from '../../../assets/skills/download (13).jpg'
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -168,6 +170,26 @@ const Skills = () => {
           <figure className='bg-white pt-2 px-2'><img src={firebase} alt="firebase" /></figure>
           <div className="card-body bg-slate-900 text-white">
             <h2 className="card-title">Firebase</h2>
+            <div className="card-actions justify-end">
+            </div>
+          </div>
+        </div>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div className="card card-compact mx-2 my-2 shadow-xl">
+          <figure className='bg-white pt-2 px-2'><img src={flutter} alt="flutter" /></figure>
+          <div className="card-body bg-slate-900 text-white">
+            <h2 className="card-title">Flutter</h2>
+            <div className="card-actions justify-end">
+            </div>
+          </div>
+        </div>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div className="card card-compact mx-2 my-2 shadow-xl">
+          <figure className='bg-white pt-2 px-2'><img src={python} alt="python" /></figure>
+          <div className="card-body bg-slate-900 text-white">
+            <h2 className="card-title">Python</h2>
             <div className="card-actions justify-end">
             </div>
           </div>
