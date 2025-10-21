@@ -1,6 +1,6 @@
 //import { TypeAnimation } from 'react-type-animation';
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import profile from '../../assets/profile/safat.jpg'
+import profile from '../../assets/profile/Myself.jpg'
 
 
 const About = () => {
